@@ -44,6 +44,28 @@ On GitHub, Public Repositories offers Visibility and Collaboration, Community Bu
 Their disadvantages are: Lack of Privacy, Potential for Misuse and Security Risks for Public Repository and Limited Collaboration, Lack of Visibility and Risks of High Costs in Private Repository.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+Making your first commit to a GitHub repository involves:
+
+1. Creating a GitHub Repository
+
+2. Install Git  
+
+3. Clone the Repository
+
+4. Make Changes to Your Project
+  
+5. Stage the Changes
+
+6. Commit the Changes
+
+7. Push the Changes to GitHub
+
+- A commit in Git is a snapshot of your changes at a particular point in time. It includes the changes made to the files and a commit message describing those changes.
+
+- Commits allow you to track the history of your project. 
+
+ - By using commits, you can manage different versions of your project. 
+
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
