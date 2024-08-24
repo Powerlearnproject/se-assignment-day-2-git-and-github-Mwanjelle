@@ -96,7 +96,45 @@ Why Branching is Important for Collaborative Development
    - Branching supports effective management of features and releases. For example, you might have separate branches for new features, bug fixes, and releases, each evolving independently.
    
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+Role of Pull Requests (PRs):
 
+1. Code Review: PRs provide a structured way to review code changes before they are merged into the main codebase. 
+
+2. Collaboration: PRs enable team members to collaborate on code. Developers can comment on specific lines of code, ask questions, and discuss potential improvements or issues. 
+
+3. Integration Testing: PRs can be linked to continuous integration (CI) tools that automatically run tests and checks on the proposed changes. This helps catch issues early and ensures that new code does not break existing functionality.
+
+4. Documentation: PRs often include a description of the changes, related issues, and any additional context needed for reviewers. This documentation helps reviewers understand the purpose and impact of the changes.
+
+Typical Steps Involved in Creating and Merging a Pull Request:
+
+1. Create a Branch 
+   - A developer creates a new branch from the main branch
+
+2. Make Changes:
+   - The developer commits code changes to this branch. Each commit should ideally have a clear, descriptive message that explains the changes made.
+
+3. Push Changes:
+   - The developer pushes the branch with the commits to the remote repository on GitHub.
+
+4. Open a Pull Request:
+   - On GitHub, the developer opens a PR from the branch with the changes to the target branch (e.g., `main`). The PR includes a title, description, and any related issue references. This formally requests that the changes be reviewed and integrated.
+
+5. Review and Discuss:
+   - Team members review the PR, examining the code and providing feedback. They may request changes or ask for clarifications. The PR author can make additional commits to address feedback.
+
+6. Run Tests:
+   - Automated tests or CI tools may run on the PR to ensure that the changes do not introduce issues. Test results are reviewed by both the developer and reviewers.
+
+7. Approve and Merge:
+   - Once the PR is reviewed, tested, and approved by the required reviewers, it can be merged into the target branch. 
+
+8. Close the Pull Request:
+   - After merging, the PR is closed. The branch may be deleted if it is no longer needed, keeping the repository clean.
+
+9. Post-Merge:
+   - Any follow-up tasks, such as updating documentation or performing additional testing, can be carried out if necessary.
+   
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
